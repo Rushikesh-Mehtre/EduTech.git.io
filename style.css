@@ -482,14 +482,16 @@ body {
 .chat-msg .msg {
   height: 100px;
   border-radius: 3px;
+  width: 95%;
 }
 .chat-msg .number {
   height: 30px;
+  width: 95%;
 }
 .send-btn {
   padding: 5px 10px;
   border-radius: 3px;
-  width: 100%;
+  width: 95%;
 }
 .send-btn:hover {
   cursor: pointer;
