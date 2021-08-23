@@ -1,0 +1,184 @@
+@media screen and (max-width: 401px) {
+  .content .social-icons {
+    width: 100vw;
+  }
+  .content .copyright {
+    width: 100vw;
+  }
+  .contact-content {
+    height: 90vh;
+  }
+  .blog-content {
+    height: 90vh;
+  }
+  .content .blog {
+    padding-right: 25px;
+  }
+}
+@media screen and (min-width: 402px) {
+  body {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  .copyright {
+    width: 100vw;
+  }
+  .social-icons {
+    width: 100vw;
+  }
+  .content .blog {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .mblog {
+    padding-left: 15px;
+  }
+  .content .blog {
+    padding-right: 25px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .services-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .services-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .services-item img {
+    height: 135px;
+    width: 135px;
+  }
+  .services-item p {
+    font-size: 15px;
+  }
+  .chat-msg {
+    height: 300px;
+    width: 230px;
+  }
+
+  .chat-msg .msg {
+    height: 200px;
+    width: 100%;
+    border-radius: 3px;
+  }
+  .chat-msg .number {
+    width: 100%;
+    height: 30px;
+  }
+  .contact-content {
+    height: 90vh;
+  }
+  .blog-content {
+    height: 90vh;
+  }
+  .services-content {
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    flex-direction: column;
+    text-align: center;
+    height: 90vh;
+  }
+  .services-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .services-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .content .descr {
+    font-size: 20px;
+  }
+  .content .blog {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .content .head {
+    font-size: 35px;
+  }
+  .content .subhead {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .services-item img {
+    height: 200px;
+    width: 200px;
+  }
+  .services-item p {
+    font-size: 20px;
+  }
+  .content .head {
+    font-size: 45px;
+  }
+  .content .subhead {
+    font-size: 35px;
+  }
+  .blog-head {
+    font-size: 28px;
+  }
+  .services-added-head {
+    display: block;
+  }
+  .services-head {
+    display: none;
+  }
+  .services {
+    flex-direction: row;
+  }
+
+  .chat-with-us {
+    font-size: 25px;
+  }
+  .chat-msg {
+    height: 400px;
+    width: 300px;
+  }
+
+  .chat-msg .msg {
+    height: 300px;
+    width: 100%;
+    border-radius: 3px;
+  }
+  .chat-msg .number {
+    width: 100%;
+    height: 30px;
+  }
+  .contact-content .contact-item .contact-head {
+    font-size: 40px;
+  }
+  .blog-content .blog-datewise,
+  .blog-content .blog-categorywise {
+    font-size: 35px;
+  }
+
+  .go-back-to-blogs {
+    margin-right: 18px;
+  }
+  .today-blog-content .today-blog-head {
+    font-size: 35px;
+  }
+  .today-blog-content .Today-blog-head1 {
+    font-size: 25px;
+  }
+  .today-blog-content .blog-para {
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100vh;
+  }
+  .content .blog {
+    padding-right: 25px;
+  }
+}
