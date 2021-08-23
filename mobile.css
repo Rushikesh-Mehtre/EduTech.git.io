@@ -1,3 +1,27 @@
+@media screen and (max-width: 340px) {
+  .content .social-icons {
+    width: 100vw;
+  }
+  .content .copyright {
+    width: 100vw;
+  }
+  .contact-content {
+    height: 90vh;
+  }
+  .blog-content {
+    height: 90vh;
+  }
+  /* .content .blog{
+    padding-right: 0px;
+  } */
+  
+  .career-content{
+    height: 100vh;
+  }
+  .content .head , .content .subhead , .content .descr , .cotent .today-blog , .cotent .blog-head{
+    text-align: center;
+  }
+}
 @media screen and (max-width: 401px) {
   .content .social-icons {
     width: 100vw;
@@ -11,8 +35,15 @@
   .blog-content {
     height: 90vh;
   }
-  .content .blog {
-    padding-right: 25px;
+  .content .blog{
+    padding-right: 0px;
+  }
+  
+  .career-content{
+    height: 100vh;
+  }
+  .content .head , .content .subhead , .content .descr , .cotent .today-blog , .cotent .blog-head{
+    text-align: center;
   }
 }
 @media screen and (min-width: 402px) {
@@ -35,6 +66,9 @@
   }
   .content .blog {
     padding-right: 25px;
+  }
+  .career-content{
+    height: 100vh;
   }
 }
 
@@ -110,6 +144,9 @@
   .content .subhead {
     font-size: 30px;
   }
+  .career-content{
+    height: 100vh;
+  }
 }
 @media screen and (min-width: 1000px) {
   .services-item img {
@@ -180,5 +217,8 @@
   }
   .content .blog {
     padding-right: 25px;
+  }
+  .career-content{
+    height: 100vh;
   }
 }
