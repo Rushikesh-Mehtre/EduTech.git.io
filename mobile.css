@@ -192,6 +192,9 @@
     width: 100%;
     height: 30px;
   }
+  .send-btn{
+    width : 100%
+  }
   .contact-content .contact-item .contact-head {
     font-size: 40px;
   }
